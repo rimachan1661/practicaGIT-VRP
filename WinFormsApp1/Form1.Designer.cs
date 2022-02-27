@@ -117,9 +117,10 @@ namespace WinFormsApp1
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.aluNombre = new System.Windows.Forms.TextBox();
-            this.aluNota = new System.Windows.Forms.TextBox();
             this.listaAlumnos = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.aluNota = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -127,18 +128,18 @@ namespace WinFormsApp1
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(35, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 20);
+            this.label1.Size = new System.Drawing.Size(64, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "Nombre";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(340, 46);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 20);
+            this.label2.Size = new System.Drawing.Size(42, 20);
             this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.label2.Text = "Nota";
             // 
             // aluNombre
             // 
@@ -146,13 +147,6 @@ namespace WinFormsApp1
             this.aluNombre.Name = "aluNombre";
             this.aluNombre.Size = new System.Drawing.Size(125, 27);
             this.aluNombre.TabIndex = 2;
-            // 
-            // aluNota
-            // 
-            this.aluNota.Location = new System.Drawing.Point(412, 35);
-            this.aluNota.Name = "aluNota";
-            this.aluNota.Size = new System.Drawing.Size(125, 27);
-            this.aluNota.TabIndex = 3;
             // 
             // listaAlumnos
             // 
@@ -175,20 +169,28 @@ namespace WinFormsApp1
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // aluNota
+            // 
+            this.aluNota.Location = new System.Drawing.Point(389, 46);
+            this.aluNota.Name = "aluNota";
+            this.aluNota.Size = new System.Drawing.Size(150, 27);
+            this.aluNota.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.aluNota);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listaAlumnos);
-            this.Controls.Add(this.aluNota);
             this.Controls.Add(this.aluNombre);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,7 +201,6 @@ namespace WinFormsApp1
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox aluNombre;
-        private System.Windows.Forms.TextBox aluNota;
         private System.Windows.Forms.TextBox listaAlumnos;
         private System.Windows.Forms.Button button1;
 
@@ -230,6 +231,8 @@ namespace WinFormsApp1
             listaAlumnos.Text = listaAlumnos.Text + miAlumnoStr;
              misAlumnos.Agregar(miAlumno);
         }
+
+        private NumericUpDown aluNota;
     }
 }
 
