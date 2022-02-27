@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vikir\\Documents\\ProyectoGIT-OtraRama\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "D:\\otroIntento\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "C:\\Users\\vikir\\Documents\\ProyectoGIT-OtraRama\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectPath": "D:\\otroIntento\\WinFormsApp1\\WinFormsApp1.csproj",
       "packagesPath": "C:\\Users\\vikir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vikir\\Documents\\ProyectoGIT-OtraRama\\WinFormsApp1\\obj\\",
+      "outputPath": "D:\\otroIntento\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
