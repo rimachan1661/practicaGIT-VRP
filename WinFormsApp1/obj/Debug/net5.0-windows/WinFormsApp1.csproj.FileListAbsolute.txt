@@ -17,3 +17,22 @@ D:\Nueva carpeta\practicaGIT-VRP\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsA
 D:\Nueva carpeta\practicaGIT-VRP\WinFormsApp1\obj\Debug\net5.0-windows\ref\WinFormsApp1.dll
 D:\Nueva carpeta\practicaGIT-VRP\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.pdb
 D:\Nueva carpeta\practicaGIT-VRP\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\bin\Debug\net5.0-windows\WinFormsApp1.exe
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\bin\Debug\net5.0-windows\WinFormsApp1.deps.json
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\bin\Debug\net5.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\bin\Debug\net5.0-windows\WinFormsApp1.runtimeconfig.dev.json
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\bin\Debug\net5.0-windows\WinFormsApp1.dll
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\bin\Debug\net5.0-windows\ref\WinFormsApp1.dll
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\bin\Debug\net5.0-windows\WinFormsApp1.pdb
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.csproj.AssemblyReference.cache
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\obj\Debug\net5.0-windows\WindowsFormsApp1.Form1.resources
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.Form1.resources
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.dll
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\obj\Debug\net5.0-windows\ref\WinFormsApp1.dll
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.pdb
+C:\Users\vikir\Documents\ProyectoGIT-OtraRama\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.genruntimeconfig.cache

@@ -156,12 +156,14 @@ namespace WinFormsApp1
             // 
             // listaAlumnos
             // 
-            this.listaAlumnos.Location = new System.Drawing.Point(35, 97);
-            this.listaAlumnos.Multiline = true;
+            this.listaAlumnos.Location = new System.Drawing.Point(130, 98);
+            this.listaAlumnos.MaximumSize = new System.Drawing.Size(300, 100);
+            this.listaAlumnos.MinimumSize = new System.Drawing.Size(500, 300);
             this.listaAlumnos.Name = "listaAlumnos";
             this.listaAlumnos.ReadOnly = true;
-            this.listaAlumnos.Size = new System.Drawing.Size(589, 27);
+            this.listaAlumnos.Size = new System.Drawing.Size(500, 300);
             this.listaAlumnos.TabIndex = 4;
+            this.listaAlumnos.TextChanged += new System.EventHandler(this.listaAlumnos_TextChanged);
             // 
             // button1
             // 
@@ -204,13 +206,29 @@ namespace WinFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             Alumno miAlumno = new Alumno();
-            String miAlumnoStr;
+             String miAlumnoStr, miAlumnoNotaTexto;
+             miAlumno.Nombre = aluNombre.Text;
+             miAlumno.Nota = Convert.ToInt32(aluNota.Text);
+            if (miAlumno.Nota<5) {
+            miAlumnoNotaTexto = "Suspenso";
+            }
+            else if (miAlumno.Nota<7) {
+            miAlumnoNotaTexto = "Aprobado";
+            }
+            else if (miAlumno.Nota<9) {
+            miAlumnoNotaTexto = "Notable";
+            }
+            else
+            miAlumnoNotaTexto = "Sobresaliente";
 
-            miAlumno.Nombre = aluNombre.Text;
-            miAlumno.Nota = Convert.ToInt32(aluNota.Text);
-            miAlumnoStr = aluNombre.Text + " " + aluNota.Text + (miAlumno.Aprobado ? " Aprobado" : " Suspenso") + "\n\r";
-            listaAlumnos.AppendText(miAlumnoStr);
-            misAlumnos.Agregar(miAlumno);
+            StringBuilder sb = new StringBuilder();
+            miAlumnoStr = aluNombre.Text + " " + aluNota.Text + " " + miAlumnoNotaTexto + System.Environment.NewLine;
+
+
+            //listaAlumnos.AppendText(miAlumnoStr);
+            listaAlumnos.Multiline = true;
+            listaAlumnos.Text = listaAlumnos.Text + miAlumnoStr;
+             misAlumnos.Agregar(miAlumno);
         }
     }
 }
