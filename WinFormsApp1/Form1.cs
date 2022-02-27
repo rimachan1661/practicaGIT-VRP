@@ -21,5 +21,10 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void listaAlumnos_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
